@@ -1,0 +1,26 @@
+# Tài liệu/dataset tham khảo lưu riêng, không đưa repo Git lồng nhau lên Git.
+/_archive/
+
+# Dữ liệu và sản phẩm chạy được tạo lại từ code.
+/ai/data/
+/ai/runs/
+/ai/reports/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.cache
+*.log
+
+# Môi trường và cache cục bộ.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Cấu hình bí mật cục bộ; có thể commit file mẫu.
+.env
+.env.*
+!.env.example

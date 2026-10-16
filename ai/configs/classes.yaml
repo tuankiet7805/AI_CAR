@@ -1,0 +1,11 @@
+# ID YOLO = category_id COCO - 1. Giữ đủ 6 lớp khi convert và train.
+# Chỉ gộp/lọc tại bước xuất JSON; xem classes.md và inference/infer.py.
+damage:
+  - dent
+  - scratch
+  - crack
+  - glass_shatter
+  - lamp_broken
+  - tire_flat
+# Chưa có dataset bộ phận xe; không dùng các lớp hư hỏng thay thế.
+parts: []

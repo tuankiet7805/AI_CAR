@@ -1,0 +1,10 @@
+data/**
+!data/raw/
+!data/raw/.gitkeep
+__pycache__/
+*.py[cod]
+.venv/
+runs/
+*.pt
+*.onnx
+.DS_Store
