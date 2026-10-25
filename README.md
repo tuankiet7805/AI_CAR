@@ -94,14 +94,3 @@ trong hướng dẫn chi tiết.
 
 Giữ cả dữ liệu gốc lẫn dữ liệu YOLO để kiểm tra và huấn luyện. Không chia lại
 split CarDD (2816/810/374). Chi tiết lớp và mapping xem `ai/configs/classes.md`.
-
-## Những mục đã dọn
-
-- Xóa file khung `convert_coco_to_yolo.py` vì đã có `coco_to_yolo.py` thực thi.
-- Xóa file khung `split.py`, `train_parts.py` và thư mục trống `data/processed/`
-  vì pipeline hiện tại chưa sử dụng.
-- Chuyển tài liệu và ảnh tham khảo vào `docs/`.
-- Chuyển repo CarDD tham khảo, bộ SOD và notebook EDNet vào `_archive/`, giữ nguyên nội dung.
-- Giữ kết quả train, checkpoint và ảnh overlay để review.
-
-Việc gom vào `_archive/` giúp gọn thư mục làm việc, không giải phóng dung lượng dataset.
